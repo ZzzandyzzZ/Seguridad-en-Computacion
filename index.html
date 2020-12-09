@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Material Design Expanding Overlay</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <body>
+    <!-- Demo stuff-->
+    <div class="title"><h1>Escoge una funcion Hash</h1>
+    <textarea type="text" class="text" id="input" placeholder="Ingresa tu texto aqui;clave"></textarea></div>
+    <main>
+      <img class="plate" src="img/candado.png" alt=""/>
+    </main>
+    <!-- Component starts here-->
+    <ul class="blocks-names">
+      <li class="blocks__name" id="MD4">MD4</li>
+      <li class="blocks__name" id="MD5">MD5</li>
+      <li class="blocks__name" id="SHA1">SHA1</li>
+      <li class="blocks__name" id="SHA256">SHA256</li>
+      <li class="blocks__name" id="SHA512">SHA512</li>
+      <li class="blocks__name" id="SHA3">SHA3</li>
+      <li class="blocks__name" id="HMAC">HMAC</li>
+      
+    </ul>
+    <ul class="blocks">
+      <li class="blocks__block" id="1"></li>
+      <li class="blocks__block" id="2"></li>
+      <li class="blocks__block" id="3"></li>
+      <li class="blocks__block" id="4"></li>
+      <li class="blocks__block" id="5"></li>
+      <li class="blocks__block" id="6"></li>
+      <li class="blocks__block" id="7"></li>
+    </ul>
+    <ul class="blocks-content">
+      
+      <li class="blocks-content__content">
+        <div class="content__close"></div>
+        <h2>MD4</h2>
+        <textarea class="Htext"></textarea>
+        <i class="blocks__content-close fa fa-close"></i>
+      </li>
+      <li class="blocks-content__content">
+        <h2>MD5</h2>
+        <textarea class="Htext"></textarea>
+        <i class="blocks__content-close fa fa-close"></i>
+      </li>
+      <li class="blocks-content__content">
+        <h2>SHA1</h2>
+        <textarea class="Htext"></textarea>
+        <i class="blocks__content-close fa fa-close"></i>
+      </li>
+      <li class="blocks-content__content">
+        <h2>SHA256</h2>
+        <textarea class="Htext"></textarea>
+        <i class="blocks__content-close fa fa-close"></i>
+      </li>
+      <li class="blocks-content__content">
+        <h2>SHA512</h2>
+        <textarea class="Htext"></textarea>
+        <i class="blocks__content-close fa fa-close"></i>
+      </li>
+      <li class="blocks-content__content">
+        <h2>SHA3</h2>
+        <textarea class="Htext"></textarea>
+        <i class="blocks__content-close fa fa-close"></i>
+      </li>
+      <li class="blocks-content__content">
+        <h2>HMAC</h2>
+        <textarea class="Htext"></textarea>
+        <i class="blocks__content-close fa fa-close"></i>
+      </li>
+    </ul>
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="scripts/md4.js"></script>
+  <script  src="scripts/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</body>
+</html>
